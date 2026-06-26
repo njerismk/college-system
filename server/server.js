@@ -23,3 +23,7 @@ app.use('/api/auth', authRoutes);
 const studentRoutes = require('./routes/studentRoutes');
 // after app.use('/api/auth', authRoutes);
 app.use('/api/students', studentRoutes);
+
+const staffRoutes = require('./routes/staffRoutes');
+// after app.use('/api/students', studentRoutes);
+app.use('/api/staff', staffRoutes);
