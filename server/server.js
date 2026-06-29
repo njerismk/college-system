@@ -27,3 +27,7 @@ app.use('/api/students', studentRoutes);
 const staffRoutes = require('./routes/staffRoutes');
 // after app.use('/api/students', studentRoutes);
 app.use('/api/staff', staffRoutes);
+
+const timetableRoutes = require('./routes/timetableRoutes');
+// after app.use('/api/staff', staffRoutes);
+app.use('/api/timetable', timetableRoutes);
