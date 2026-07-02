@@ -38,3 +38,15 @@ app.use('/api/courses', courseRoutes);
 
 const attendanceRoutes = require('./routes/attendanceRoutes');
 app.use('/api/attendance', attendanceRoutes);
+
+const resultsRoutes = require('./routes/resultsRoutes');
+app.use('/api/results', resultsRoutes);
+
+const communicationRoutes = require('./routes/communicationRoutes');
+app.use('/api/messages', communicationRoutes);
+
+const financeRoutes = require('./routes/financeRoutes');
+app.use('/api/finance', financeRoutes);
+
+const libraryRoutes = require('./routes/libraryRoutes');
+app.use('/api/library', libraryRoutes);
