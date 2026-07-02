@@ -50,3 +50,9 @@ app.use('/api/finance', financeRoutes);
 
 const libraryRoutes = require('./routes/libraryRoutes');
 app.use('/api/library', libraryRoutes);
+
+const examinationRoutes = require('./routes/examinationRoutes');
+app.use('/api/examination', examinationRoutes);
+
+const reportsRoutes = require('./routes/reportsRoutes');
+app.use('/api/reports', reportsRoutes);
