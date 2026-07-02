@@ -31,3 +31,7 @@ app.use('/api/staff', staffRoutes);
 const timetableRoutes = require('./routes/timetableRoutes');
 // after app.use('/api/staff', staffRoutes);
 app.use('/api/timetable', timetableRoutes);
+
+const courseRoutes = require('./routes/courseRoutes');
+// after app.use('/api/timetable', timetableRoutes);
+app.use('/api/courses', courseRoutes);
